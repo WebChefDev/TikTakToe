@@ -1,0 +1,73 @@
+body {
+    background-color: #F11A7B;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.play {
+    background-color: #982176;
+    height: 90px;
+    width: 500px;
+    text-align: center;
+    color: #FFE5AD;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+}
+
+.cell {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 100px; 
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black; 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    text-align: center;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#resetButton {
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 25px;
+}
