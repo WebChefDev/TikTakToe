@@ -1,7 +1,8 @@
 body {
-    background-color: #F11A7B;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+height: 100vh;
+text-align: center;}
 
 .game-container {
     display: flex;
@@ -10,15 +11,6 @@ body {
     margin-top: 150px;
 }
 
-.play {
-    background-color: #982176;
-    height: 90px;
-    width: 500px;
-    text-align: center;
-    color: #FFE5AD;
-    border-radius: 25px;
-    margin-bottom: 50px;
-}
 
 .board {
     display: grid;
